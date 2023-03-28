@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-864535334160743207
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: liquidGraph
+  m_Shader: {fileID: -6465566751694194690, guid: 5df0b6ca280e44aa48dd4a63ef5b4b51, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2990
+  stringTagMap: {}
+  disabledShaderPasses:
+  - ALWAYS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BubbleTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PerlinNoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WavesTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - FillRef: 1
+    - Vector1_bcc0a41b59a44111b58831c4cc499948: 1
+    - Vector1_def5be4fd24342669377847b382b6fba: 0
+    - _Blur: 1
+    - _BubbleCount: 30
+    - _BubbleScale: 1
+    - _DrawBackface: 1
+    - _EdgeThickness: 0.02
+    - _FoamAmount: 1
+    - _FresnelPower: 1.5
+    - _MeniscusCurve: 0.75
+    - _MeniscusHeight: 0.04
+    - _NormalMult: 1
+    - _ProbeLod: 0.05
+    - _Refraction: 0.5
+    - _Syrup: 0
+    - _Thickness: 0.05
+    - _UseGrabpass: 0
+    - _WobbleX: 0
+    - _WobbleZ: 0
+    m_Colors:
+    - Color_1bc2fe944fdc403a92ff27d184158172: {r: 0.7830189, g: 0.36376467, b: 0, a: 0}
+    - Color_8faac46dec00457083477d1487cb025b: {r: 1, g: 0.46519178, b: 0, a: 0}
+    - SideColorRef: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 0}
+    - TopColorRef: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 0}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlassColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LiquidColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TopColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
