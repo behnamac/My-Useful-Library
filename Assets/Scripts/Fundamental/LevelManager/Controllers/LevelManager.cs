@@ -1,6 +1,5 @@
 using Levels;
 using Storage;
-using Tools;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -165,8 +164,6 @@ namespace Controllers
             // Sonraki level numarası atanıyor
             PlayerPrefsController.SetLevelNumber(PlayerPrefsController.GetLevelNumber() + 1);
 
-            // Haptic
-            Haptic.HapticLevelComplete();
 
             OnLevelComplete?.Invoke(_activeLevel.GetComponent<Level>());
         }
@@ -176,7 +173,6 @@ namespace Controllers
         /// </summary>
         public void LevelFail()
         {
-            Haptic.HapticLevelFail();
             OnLevelFail?.Invoke(_activeLevel.GetComponent<Level>());
         }
 

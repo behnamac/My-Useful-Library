@@ -2,7 +2,6 @@ using System;
 using DG.Tweening;
 using Levels;
 using Storage;
-using Tools;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -142,7 +141,6 @@ namespace Controllers
 
         public void AddCoin(int coinCount)
         {
-            Haptic.HapticCollectCurrency();
 
             var totalCoin = PlayerPrefsController.GetTotalCurrency();
 
@@ -160,17 +158,11 @@ namespace Controllers
 
         public void LevelFinishCoinCount(int coinCount)
         {
-            Haptic.HapticCollectCurrency();
 
             _levelFinishTotalCount += coinCount;
 
             levelFinishCoinText.text = _levelFinishTotalCount.ToString();
-        }
-
-        public void SetLipCount(int count)
-        {
-            Haptic.HapticCollectCurrency();
-        }
+        }    
 
         public void StartLevelFinishCoins()
         {
